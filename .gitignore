@@ -211,3 +211,158 @@ __marimo__/
 .opencode/**
 .qwen/**
 .specify
+
+# =============================================================================
+# PySpark Specific
+# =============================================================================
+
+# Spark temporary files and warehouses
+spark-warehouse/
+metastore_db/
+spark-logs/
+derby.log
+
+# Spark worker directories
+work/
+worker-logs/
+
+# Temporary Spark files
+*.tmp
+*.temp
+
+# =============================================================================
+# Jupyter Notebook (Additional)
+# =============================================================================
+
+# Jupyter runtime files
+.ipynb_checkpoints/
+*.ipynb_checkpoints*
+
+# =============================================================================
+# Data Files (PySpark Project)
+# =============================================================================
+
+# Raw data (typically large and should not be versioned)
+data/raw/
+raw_data/
+
+# Generated/processed data (usually large, regenerate if needed)
+data/processed/
+processed_data/
+data/results/
+output/
+results/
+
+# Spark output directories
+data/output/
+spark-output/
+
+# =============================================================================
+# Logging
+# =============================================================================
+
+# Application logs
+*.log
+*.log.*
+logs/
+log/
+
+# =============================================================================
+# OS Specific
+# =============================================================================
+
+# macOS
+.DS_Store
+.Spotlight-V100
+.Trashes
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =============================================================================
+# IDE & Editor Specific
+# =============================================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm/IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Atom
+.atom/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# =============================================================================
+# Environment & Secrets
+# =============================================================================
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Secret files
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# =============================================================================
+# Build & Distribution
+# =============================================================================
+
+# Python build
+*.egg-info/
+dist/
+build/
+
+# =============================================================================
+# Other
+# =============================================================================
+
+# Cache directories
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter .ystore
+.jupyter_ystore.db
+AGENTS.md
+info_project.md
+QWEN.md
+.kilocode/**
+specs/**
+specs
